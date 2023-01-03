@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: auto;
+    background-color: rgb(252, 242, 187);
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+    padding: 35px;
+}
+
+header > a {
+    text-decoration: none;
+    color: white;
+}
+
+main p.parag {
+    background-color: rgba(0, 0, 0, 0.152);
+
+    margin: 50px auto 100px;
+
+    padding: 100px 100px 100px 25px;
+
+    max-width: 150px;
+}
+
+main > section > p.parag_img {
+    background-color: rgba(0, 0, 0, 0.59);
+    color: white;
+
+    margin: auto;
+    padding: 100px 100px 100px 25px;
+    
+    max-width: 150px;
+}
+
+section.sec1 {
+    padding: 50px 0px 100px 0px;
+    /* imagem de fundo */
+    background-image: url('imagens/background001.jpg');
+
+    /* ------------------------------------------------------ */
+
+    /* confs da imagem: */
+
+    /* mantenha 100% da proproção da tela */
+    width: 100%;
+
+    /* n repita a img */
+    background-repeat: no-repeat;
+
+    /* mantenha o tamanho total da img */
+    background-size: cover;
+
+    /* mantenha a img a direita e centralizada */
+    background-position: right center;
+
+    /* mantenha a imagem fixa na tela enquanto o conteudo é rolável */
+    background-attachment: fixed;
+}
+
+/* mesma config da sec1 */
+section.sec2 {
+    padding: 50px 0px 100px 0px;
+
+    background-image: url('imagens/background002.jpg');
+
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+}
+
+/* mesma config da sec1 */
+section.sec3 {
+    padding: 50px 0px 100px 0px;
+
+    background-image: url('imagens/background003.jpg');
+
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.29);
+    color: black;
+
+    margin: 10px;
+    padding: 10px;
+
+    text-align: center;
+}
+
+footer a {
+    text-decoration: underline;
+    color: black;
+}
+
+footer a:hover {
+    color: red;
+}
